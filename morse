@@ -9,3 +9,11 @@ def case_counter(text):
             lower_count += 1
     print("Uppercase letters count:", upper_count)
     print("Lowercase letters count:", lower_count)
+inputs = [
+    "Hello World!",
+    "PYTHON",
+    "python",
+    "1234!@#$"
+]
+for input_text in inputs:
+    case_counter(input_text)
